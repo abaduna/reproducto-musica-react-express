@@ -9,7 +9,7 @@ app.use(morgan("dev"));
 
 
 app.use( express.static("upload"));
-
+app.use(cors())
 //routes
 app.use(tracksRouter)
 

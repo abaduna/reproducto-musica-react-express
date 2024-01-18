@@ -3,7 +3,7 @@ import {FETCH_DATA} from "../action/fetch"
 export const initialState = {
     loading:true,
     error:false,
-    data:{},
+    dataMusic:{},
     
 }
 export const fetchReducer = (state,action)=>{
